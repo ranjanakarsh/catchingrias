@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21179.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21169.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchingKenny" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="T2r-NT-BCW">
+                                <rect key="frame" x="24" y="216" width="342" height="430"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eUd-fL-98y">
+                                        <rect key="frame" x="0.0" y="0.0" width="342" height="116"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="gUC-Ng-mKh">
+                                                <rect key="frame" x="0.0" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="4m1-TI-mDU">
+                                                <rect key="frame" x="114" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="Slm-Nb-kLw">
+                                                <rect key="frame" x="228" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qq8-yu-WuY">
+                                        <rect key="frame" x="0.0" y="157" width="342" height="116"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="1o5-qd-hVq">
+                                                <rect key="frame" x="0.0" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="0wx-NI-g1R">
+                                                <rect key="frame" x="114" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="6" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="IRh-TJ-upY">
+                                                <rect key="frame" x="228" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="c0u-Lz-Mv8">
+                                        <rect key="frame" x="0.0" y="314" width="342" height="116"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="7" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="Ndt-GW-zQs">
+                                                <rect key="frame" x="0.0" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="8" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="vcT-Q8-X3n">
+                                                <rect key="frame" x="114" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="9" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rias_gremory" translatesAutoresizingMaskIntoConstraints="NO" id="t1G-hU-2xc">
+                                                <rect key="frame" x="228" y="0.0" width="114" height="116"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Time: 30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVg-bT-J6c">
+                                <rect key="frame" x="24" y="74" width="342" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="pyq-EO-d0l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ik-1h-1mK">
+                                <rect key="frame" x="16" y="118" width="350" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="x4f-yi-GHf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highscore: 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHw-8t-LGa">
+                                <rect key="frame" x="24" y="704" width="342" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="rxP-Pf-Rbl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhZ-bg-A48">
+                                <rect key="frame" x="165" y="746" width="62" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Start"/>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNi-Qm-jAj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jHw-8t-LGa" secondAttribute="bottom" constant="72" id="0FH-Nf-HQs"/>
+                            <constraint firstItem="lVg-bT-J6c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="8ud-mN-maL"/>
+                            <constraint firstItem="lVg-bT-J6c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C8I-Qg-Njl"/>
+                            <constraint firstItem="jHw-8t-LGa" firstAttribute="top" secondItem="T2r-NT-BCW" secondAttribute="bottom" constant="58" id="TDm-Pe-jAV"/>
+                            <constraint firstItem="5ik-1h-1mK" firstAttribute="top" secondItem="lVg-bT-J6c" secondAttribute="bottom" constant="8" id="deq-eD-tQV"/>
+                            <constraint firstItem="T2r-NT-BCW" firstAttribute="leading" secondItem="jHw-8t-LGa" secondAttribute="leading" id="f9D-sd-bu4"/>
+                            <constraint firstItem="5ik-1h-1mK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p3j-eR-Reg"/>
+                            <constraint firstItem="T2r-NT-BCW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="pLg-c2-yrp"/>
+                            <constraint firstItem="5ik-1h-1mK" firstAttribute="trailing" secondItem="T2r-NT-BCW" secondAttribute="trailing" id="s75-n4-e5n"/>
+                            <constraint firstItem="lVg-bT-J6c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="siK-KD-Dn6"/>
+                            <constraint firstItem="T2r-NT-BCW" firstAttribute="top" secondItem="5ik-1h-1mK" secondAttribute="bottom" constant="78" id="sjO-nQ-S7A"/>
+                            <constraint firstItem="T2r-NT-BCW" firstAttribute="trailing" secondItem="jHw-8t-LGa" secondAttribute="trailing" id="tfm-Vk-ESu"/>
+                            <constraint firstItem="lVg-bT-J6c" firstAttribute="centerX" secondItem="T2r-NT-BCW" secondAttribute="centerX" id="x9B-DH-k0u"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currentScoreLabel" destination="5ik-1h-1mK" id="eR7-Vd-WH2"/>
+                        <outlet property="highScoreLabel" destination="jHw-8t-LGa" id="SX5-8S-chb"/>
+                        <outlet property="rias1" destination="gUC-Ng-mKh" id="ZQr-Fh-zee"/>
+                        <outlet property="rias2" destination="4m1-TI-mDU" id="cUq-bf-5e4"/>
+                        <outlet property="rias3" destination="Slm-Nb-kLw" id="jAm-NS-PEa"/>
+                        <outlet property="rias4" destination="1o5-qd-hVq" id="Zf9-DH-I25"/>
+                        <outlet property="rias5" destination="0wx-NI-g1R" id="ebT-3Z-g9v"/>
+                        <outlet property="rias6" destination="IRh-TJ-upY" id="7i0-tz-mWU"/>
+                        <outlet property="rias7" destination="Ndt-GW-zQs" id="IxE-dg-53Q"/>
+                        <outlet property="rias8" destination="vcT-Q8-X3n" id="Qqm-7E-KY2"/>
+                        <outlet property="rias9" destination="t1G-hU-2xc" id="MgH-14-Clg"/>
+                        <outlet property="startButton" destination="NhZ-bg-A48" id="VXh-pW-0dO"/>
+                        <outlet property="timerLabel" destination="lVg-bT-J6c" id="D7h-36-hBz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.692307692307693" y="-28.436018957345969"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rias_gremory" width="1024" height="1464"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
